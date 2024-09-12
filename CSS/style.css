@@ -71,3 +71,25 @@ header h1 {
         height: 150px;
     }
 }
+
+.family {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.family-image img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #1e90ff;
+}
+
+.family-info {
+    flex: 1;
+    margin-left: 40px;
+}
